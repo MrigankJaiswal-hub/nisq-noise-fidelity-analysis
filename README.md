@@ -79,33 +79,32 @@ All simulations are performed using **Qiskit Aer**.
 
 ## 📁 Repository Structure
 
-nisq-noise-fidelity-analysis/
-│
+.
 ├── notebooks/
 │   ├── 01_ideal_circuits.ipynb
 │   ├── 02_noise_models.ipynb
 │   ├── 03_zero_noise_extrapolation.ipynb
-│   ├── 04_entanglement_metrics.ipynb
-│
+│   └── 04_entanglement_metrics.ipynb
 │
 ├── src/
-├── circuits.py
-├── noise_models.py
-├── simulation.py
-├── fidelity_metrics.py
-├── entanglement.py
-├── mitigation.py
-└── utils.py
+│   ├── circuits.py
+│   ├── noise_models.py
+│   ├── fidelity_metrics.py
+│   └── utils.py
 │
 ├── results/
 │   ├── concurrence_vs_noise.png
 │   ├── negativity_vs_noise.png
 │   └── hardware_comparison.png
 │
-├── requirements.txt
+├── docs/
+│   ├── theory_background.md
+│   ├── experimental.md
+│   └── observations.md
+│
 ├── README.md
-├── LICENSE
-└── .gitignore
+└── requirements.txt
+
 
 
 
